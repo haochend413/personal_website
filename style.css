@@ -1,3 +1,22 @@
 .u-textCenter {
   text-align: center;
 }
+
+/* make variables in :root; must start with --; */
+:root {
+  background: gold;
+  --primary: #396dff;
+  --greenblue: #0ff;
+}
+
+.body {
+  margin: 0;
+}
+/* description of classes*/
+.navT {
+  margin: 0;
+  font-weight: normal;
+  color: rgb(229, 229, 236);
+  font: 20px;
+  background-color: #1b0cbd;
+}
