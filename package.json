@@ -2,8 +2,10 @@
   "name": "mywebpage",
   "version": "1.0.0",
   "description": "This is my personal webpage. I use this as front-end learning practice.",
+  "homepage": "https://haochend413.github.io/",
   "main": "index.js",
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^5.0.1"
@@ -12,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "haochend413",
   "license": "ISC",

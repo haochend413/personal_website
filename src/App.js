@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Homebutton, Aboutbutton } from "./buttons";
+import "./style.css";
 
 export default function App() {
   const [page, setpage] = useState("home");
@@ -8,10 +9,10 @@ export default function App() {
     return (
       <>
         <section>
-          <h1>Homepage</h1>
           <Homebutton setpage={setpage} />
           <Aboutbutton setpage={setpage} />
-          <p className="box">Welcome to my homepage!</p>
+          <h1>Home</h1>
+          <p className="box u-textCenter">Welcome to my homepage!</p>
         </section>
       </>
     );
@@ -19,9 +20,9 @@ export default function App() {
     return (
       <>
         <section>
-          <h1>About</h1>
           <Homebutton setpage={setpage} />
           <Aboutbutton setpage={setpage} />
+          <h1>About</h1>
           <p className="box">
             My name is Haochen Ding. I am a freshman in University of Illinois, Urbana-Champaign. I
             am currently pursuing a Math / Engineering degree. Nice to meet you all!
