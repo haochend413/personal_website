@@ -24,7 +24,7 @@ export default function App() {
           <Aboutbutton setpage={setpage} />
           <h1>About</h1>
           <p className="box">
-            My name is Haochen Ding. I am a freshman in University of Illinois, Urbana-Champaign. I
+            My name is Haochen Ding. I am a Sophomore in University of Illinois, Urbana-Champaign. I
             am currently pursuing a Math / Engineering degree. Nice to meet you all!
           </p>
         </section>
