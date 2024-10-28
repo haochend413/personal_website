@@ -15,3 +15,11 @@ export const Homebutton = ({ setpage }) => {
   };
   return <button onClick={handleClick}>HOME</button>;
 };
+
+//EXPERIENCE button
+export const Experiencebutton = ({ setpage }) => {
+  const handleClick = () => {
+    setpage("experiences");
+  };
+  return <button onClick={handleClick}>EXPERIENCES</button>;
+};

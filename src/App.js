@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Homebutton, Aboutbutton } from "./buttons";
+import { Homebutton, Aboutbutton, Experiencebutton } from "./buttons";
 import "./style.css";
 
 export default function App() {
@@ -11,6 +11,7 @@ export default function App() {
         <section>
           <Homebutton setpage={setpage} />
           <Aboutbutton setpage={setpage} />
+          <Experiencebutton setpage={setpage} />
           <h1>Home</h1>
           <p className="box u-textCenter">Welcome to my homepage!</p>
         </section>
@@ -22,10 +23,25 @@ export default function App() {
         <section>
           <Homebutton setpage={setpage} />
           <Aboutbutton setpage={setpage} />
+          <Experiencebutton setpage={setpage} />
           <h1>About</h1>
           <p className="box">
             My name is Haochen Ding. I am a Sophomore in University of Illinois, Urbana-Champaign. I
-            am currently pursuing a Math / Engineering degree. Nice to meet you all!
+            am currently pursuing a Bachelor's Degree in Computer Engineering. Nice to meet you all!
+          </p>
+        </section>
+      </>
+    );
+  } else if (page == "experiences") {
+    return (
+      <>
+        <section>
+          <Homebutton setpage={setpage} />
+          <Aboutbutton setpage={setpage} />
+          <Experiencebutton setpage={setpage} />
+          <h1>Experiences</h1>
+          <p className="box">
+            I have done many projects, and I am currently assisting research in computer vision.
           </p>
         </section>
       </>
