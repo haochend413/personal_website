@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "main -d build"
+    "deploy": "gh-pages -d build"
   },
   "author": "haochend413",
   "license": "ISC",
