@@ -1,3 +1,4 @@
 # MyWebpage
 
-This is the configuration for my webpage.
+Haochen Ding's personal website.
+Deployed at haochend413.github.io. Check it out! 
