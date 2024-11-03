@@ -23,3 +23,11 @@ export const Experiencebutton = ({ setpage }) => {
   };
   return <button onClick={handleClick}>EXPERIENCES</button>;
 };
+
+//Resume button
+export const Resumebutton = ({ setpage }) => {
+  const handleClick = () => {
+    setpage("resume");
+  };
+  return <button onClick={handleClick}>RESUME</button>;
+};
