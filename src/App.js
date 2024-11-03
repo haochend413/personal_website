@@ -59,7 +59,7 @@ export default function App() {
           <Resumebutton setpage={setpage} />
           <h1>Resume & Websites</h1>
           <p className="box">
-            <a href="blob/76e90b30a228b6125ff3b258b515969dedd10a08/public/Resume.pdf">Resume</a>
+            <a href="public/Resume.pdf">Resume</a>
             <br></br>
             <a href="https://github.com/haochend413">Github</a>
             <br></br>
