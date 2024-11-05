@@ -1,10 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Homepage from "pages/Homepage";
-import Aboutpage from "pages/Aboutpage";
-import Experiencepage from "pages/Experiencepage";
-import Resumepage from "pages/Resumepage";
-import Navbar from "components/Navbar";
+import Homepage from "./pages/Homepage";
+import Aboutpage from "./pages/Aboutpage";
+import Experiencepage from "./pages/Experiencepage";
+import Resumepage from "./pages/Resumepage";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (

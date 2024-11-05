@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 
 function Experiencepage() {
   return (
@@ -13,3 +13,5 @@ function Experiencepage() {
     </>
   );
 }
+
+export default Experiencepage;

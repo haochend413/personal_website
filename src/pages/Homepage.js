@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 
 function Homepage() {
   return (
@@ -11,3 +11,5 @@ function Homepage() {
     </>
   );
 }
+
+export default Homepage;
