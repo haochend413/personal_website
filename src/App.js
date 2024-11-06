@@ -10,14 +10,13 @@ function App() {
   return (
     <div>
       <Navbar />
-      <HashRouter>
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/about" element={<Aboutpage />} />
-          <Route path="/experiences" element={<Experiencepage />} />
-          <Route path="/resume" element={<Resumepage />} />
-        </Routes>
-      </HashRouter>
+
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<Aboutpage />} />
+        <Route path="/experiences" element={<Experiencepage />} />
+        <Route path="/resume" element={<Resumepage />} />
+      </Routes>
     </div>
   );
 }
