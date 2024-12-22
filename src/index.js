@@ -6,8 +6,8 @@ import { HashRouter, BrowserRouter } from "react-router-dom";
 
 // renders React Component "Root" into the DOM element with ID "root"
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <App />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );

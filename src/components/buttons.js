@@ -1,5 +1,6 @@
 // import { setpage } from "./App.js";
 
+/*
 //ABOUT button
 export const Aboutbutton = ({ setpage }) => {
   const handleClick = () => {
@@ -31,3 +32,5 @@ export const Resumebutton = ({ setpage }) => {
   };
   return <button onClick={handleClick}>RESUME</button>;
 };
+
+*/

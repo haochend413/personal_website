@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Aboutpage from "./pages/Aboutpage";
 import Experiencepage from "./pages/Experiencepage";
@@ -10,7 +10,6 @@ function App() {
   return (
     <div>
       <Navbar />
-
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<Aboutpage />} />
@@ -26,7 +25,7 @@ export default App;
 /***** This version uses buttons to switch between pages. Seems good.  */
 
 // import { useState } from "react";
-// import { Homebutton, Aboutbutton, Experiencebutton, Resumebutton } from "./buttons";
+// import { Homebutton, Aboutbutton, Experiencebutton, Resumebutton } from "./components/buttons";
 // import "./style.css";
 
 // export default function App() {
