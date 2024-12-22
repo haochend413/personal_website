@@ -7,7 +7,9 @@ function Experiencepage() {
       <section>
         <h1>Resume & Websites</h1>
         <p className="box">
-          <a href="public/Resume.pdf">Resume</a>
+          <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+            Resume
+          </a>
           <br></br>
           <a href="https://github.com/haochend413">Github</a>
           <br></br>
