@@ -1,8 +1,9 @@
-import React from "react";
+import { React, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 function Navbar() {
   const navigate = useNavigate();
+
   return (
     <nav>
       <button onClick={() => navigate("/")}>HOME</button>

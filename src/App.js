@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useEffect, React } from "react";
+import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Aboutpage from "./pages/Aboutpage";
 import Experiencepage from "./pages/Experiencepage";
