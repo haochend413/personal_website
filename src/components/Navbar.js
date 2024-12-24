@@ -2,8 +2,8 @@ import { React, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+  //use navigate to direct between routes
   const navigate = useNavigate();
-
   return (
     <nav>
       <button onClick={() => navigate("/")}>HOME</button>
