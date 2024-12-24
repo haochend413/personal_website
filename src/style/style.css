@@ -1,0 +1,117 @@
+.u-textCenter {
+  text-align: center;
+}
+
+/* make variables in :root; must start with --; */
+:root {
+  /* background: gold; */
+  --primary: #396dff;
+  --greenblue: #0ff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+  margin-top: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+  border: 0;
+}
+
+.piccenter {
+  margin: 0 auto;
+  display: block;
+}
+
+/* description of classes*/
+/*navigat bar*/
+.navT {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+  color: rgb(229, 229, 236);
+  font: 20px;
+  background-color: #1b0cbd;
+}
+
+.box {
+  margin: 1px;
+  border: 1px solid;
+  padding: 20px;
+  border-color: black;
+}
+
+/******************** Experience gallery *******************************/
+
+/* Style for each individual gallery item */
+
+.gallery-item-left {
+  float: left;
+  margin: 10px;
+  border: 1px solid;
+  border-color: black;
+  background-color: #f9f9f9; /* Light background for the box */
+  padding: 15px;
+  /* border-radius: 8px; Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center align content inside the box */
+  height: 350px; /* Fixed height */
+  width: 45%; /* Ensures the item takes full width within its container */
+  overflow: hidden; /* Ensures content doesn’t overflow the box */
+  transition: transform 0.3s ease-in-out; /* For hover effect */
+}
+
+.gallery-item-right {
+  float: right;
+  margin: 10px;
+  border: 1px solid;
+  border-color: black;
+  background-color: #f9f9f9; /* Light background for the box */
+  padding: 15px;
+  /* border-radius: 8px; Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center align content inside the box */
+  height: 350px; /* Fixed height */
+  width: 45%; /* Ensures the item takes full width within its container */
+  overflow: hidden; /* Ensures content doesn’t overflow the box */
+  transition: transform 0.3s ease-in-out; /* For hover effect */
+}
+
+/* Image styling inside the gallery item */
+.gallery-item-left img {
+  width: 80%; /* Makes image fill the width of the box */
+  height: 200px; /* Fixed height for image */
+  object-fit: cover; /* Ensures the image covers the space without distortion */
+  border-radius: 5px;
+}
+.gallery-item-right img {
+  width: 80%; /* Makes image fill the width of the box */
+  height: 200px; /* Fixed height for image */
+  object-fit: cover; /* Ensures the image covers the space without distortion */
+  border-radius: 5px;
+}
+
+/* Hover effect for the gallery items */
+.gallery-item-left:hover {
+  transform: scale(1.05); /* Slight zoom effect when hovering */
+}
+.gallery-item-right:hover {
+  transform: scale(1.05); /* Slight zoom effect when hovering */
+}
+
+/* Links styling */
+/* .gallery-item a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+} */
+
+.gallery-item-left a:hover {
+  background-color: #0056b3; /* Darker color when hovering on the link */
+}
+.gallery-item-right a:hover {
+  background-color: #0056b3; /* Darker color when hovering on the link */
+}
