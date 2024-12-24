@@ -5,7 +5,9 @@ function item({ align, imglink, imgname, project_title, project_description, Pro
         <img src={imglink} alt={imgname} />
         <h3>{project_title}</h3>
         <p>{project_description}</p>
-        <a href={Project_link}>View Project</a>
+        <a href={Project_link} target="_blank" rel="noopener noreferrer">
+          View Project
+        </a>
       </div>
     );
   } else {
@@ -14,7 +16,9 @@ function item({ align, imglink, imgname, project_title, project_description, Pro
         <img src={imglink} alt={imgname} />
         <h3>{project_title}</h3>
         <p>{project_description}</p>
-        <a href={Project_link}>View Project</a>
+        <a href={Project_link} target="_blank" rel="noopener noreferrer">
+          View Project
+        </a>
       </div>
     );
   }
