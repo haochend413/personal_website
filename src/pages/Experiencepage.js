@@ -16,13 +16,22 @@ function Experiencepage() {
         align={0}
         imglink={"images/PID_HGV_1.png"}
         imgname={"PID_HGV"}
-        project_title={"PID_HGV"}
+        project_title={"PID AGV"}
         project_description={
           "Using hardware components to achieve obstacle sensing and smooth speed change. (ECE 198)"
         }
         Project_link={"ECE_198_Final_Report.pdf"}
       />
-      <Item align={1} />
+      <Item
+        align={1}
+        imglink={"images/FFT_Calculator_1.png"}
+        imgname={"FFT"}
+        project_title={"FFT Calculator"}
+        project_description={
+          "Rust-based FFT calculator with SIMD and multithread optimization (CS 199-128)"
+        }
+        Project_link={"https://github.com/haochend413/FFT-Calculator"}
+      />
     </>
   );
 }
