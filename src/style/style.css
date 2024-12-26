@@ -8,6 +8,11 @@
   --primary: #396dff;
   --greenblue: #0ff;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* background-image: url("../images/Homepage_Background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  background-color: #396dff;
 }
 
 body {
@@ -115,3 +120,12 @@ body {
 .gallery-item-right a:hover {
   background-color: #0056b3; /* Darker color when hovering on the link */
 }
+
+/****************************** Homepage background setting *****************************************/
+
+/* .home-background {
+  background-image: url("../images/Homepage_Background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */

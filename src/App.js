@@ -5,6 +5,7 @@ import Aboutpage from "./pages/Aboutpage";
 import Experiencepage from "./pages/Experiencepage";
 import Resumepage from "./pages/Resumepage";
 import Navbar from "./components/Navbar";
+import "./style/style.css";
 
 function App() {
   return (
