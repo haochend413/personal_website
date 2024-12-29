@@ -10,9 +10,13 @@ function Experiencepage() {
           CV
         </a>
         <br></br>
-        <a href="https://github.com/haochend413">Github</a>
+        <a href="https://github.com/haochend413" target="_blank" rel="noopener noreferrer">
+          Github
+        </a>
         <br></br>
-        <a href="https://linkedin.com/in/hcd413">Linkedin</a>
+        <a href="https://linkedin.com/in/hcd413" target="_blank" rel="noopener noreferrer">
+          Linkedin
+        </a>
         <br></br>
       </p>
     </>

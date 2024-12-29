@@ -7,10 +7,18 @@ function Navbar() {
   const navigate = useNavigate();
   return (
     <nav className="navT">
-      <button onClick={() => navigate("/")}>HOME</button>
-      <button onClick={() => navigate("/about")}>ABOUT</button>
-      <button onClick={() => navigate("/experiences")}>EXPERIENCES</button>
-      <button onClick={() => navigate("/resume")}>RESUME</button>
+      <button className="button" onClick={() => navigate("/")}>
+        HOME
+      </button>
+      <button className="button" onClick={() => navigate("/about")}>
+        ABOUT
+      </button>
+      <button className="button" onClick={() => navigate("/experiences")}>
+        EXPERIENCES
+      </button>
+      <button className="button" onClick={() => navigate("/resume")}>
+        RESUME
+      </button>
       {/* Add more links as needed */}
     </nav>
   );

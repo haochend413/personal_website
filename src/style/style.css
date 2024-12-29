@@ -12,7 +12,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed; */
-  background-color: #cddfff;
+  background-color: #c9d7ee;
 }
 
 body {
@@ -31,6 +31,7 @@ body {
 /* description of classes*/
 /*navigat bar*/
 .pagetitle {
+  height: 30px;
   margin: 0 0 5px 0;
   font-weight: bold;
   color: rgb(229, 229, 236);
@@ -39,7 +40,10 @@ body {
 }
 
 .navT {
-  margin-left: 5px;
+  margin-top: 7px;
+  gap: 10px;
+  justify-content: center;
+  display: flex;
 }
 
 .title {
@@ -139,3 +143,16 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 } */
+
+/****************  buttons  ******************/
+.button {
+  height: auto;
+  width: 120px;
+  font-family: Cambria;
+  background-color: #1b0cbd;
+  color: yellow;
+}
+
+button:active {
+  background-color: black;
+}

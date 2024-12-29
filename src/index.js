@@ -11,6 +11,7 @@ import "./style/style.css";
 Using HashRouter enables accessing subroutes directly, 
 without needing to redirecting to Home. 
 */
+
 ReactDOM.render(
   <HashRouter>
     <App />
