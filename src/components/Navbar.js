@@ -5,19 +5,19 @@ import "../style/style.css";
 function Navbar() {
   //use navigate to direct between routes
   const navigate = useNavigate();
+
   //get the function with handling
   const buttons = document.querySelectorAll(".button");
-
   // Add click event listener to each button
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
       // Remove the 'active' class from all buttons
       buttons.forEach((btn) => btn.classList.remove("active"));
-
       // Add 'active' class to the clicked button
       button.classList.add("active");
     });
   });
+
   return (
     <nav className="navT">
       <button className="button" onClick={() => navigate("/")}>

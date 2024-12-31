@@ -5,11 +5,14 @@ import Aboutpage from "./pages/Aboutpage";
 import Experiencepage from "./pages/Experiencepage";
 import Resumepage from "./pages/Resumepage";
 import Navbar from "./components/Navbar";
+import Titlebar from "./components/TitleBar";
+
 import "./style/style.css";
 
 function App() {
   return (
     <div>
+      <Titlebar />
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
