@@ -10,11 +10,11 @@ function TitleBar() {
     navigate("/");
   };
   return (
-    <nav class="navContainer u-textCenter">
+    <div class="navContainer">
       <h1 class="pagetitle" onClick={title_onclick_redirect}>
         Haochen Ding's Website
       </h1>
-    </nav>
+    </div>
   );
 }
 

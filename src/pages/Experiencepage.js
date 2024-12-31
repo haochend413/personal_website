@@ -5,12 +5,12 @@ import "../style/style.css";
 function Experiencepage() {
   return (
     <>
-      <h1 className="title"> Statement </h1>
+      <h1 className="section-title"> Statement </h1>
       <p className="box">
         I am keen on participating in projects, academic researches and internships to improve my
         skills and widen my horizon. I am currently seeking for opportunities in ECE related fields.
       </p>
-      <h1 className="title"> Projects </h1>
+      <h1 className="section-title"> Projects </h1>
       {/* align, imglink, imgname, project_title, project_description, Project_link */}
       <Item
         align={0}

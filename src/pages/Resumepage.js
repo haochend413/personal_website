@@ -4,7 +4,7 @@ import "../style/style.css";
 function Experiencepage() {
   return (
     <>
-      <h1 className="title">Resume & Websites</h1>
+      <h1 className="section-title">Resume & Websites</h1>
       <p className="box">
         <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
           CV
