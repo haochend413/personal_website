@@ -4,7 +4,7 @@ import "../style/style.css";
 function Homepage() {
   return (
     <div>
-      <h1 className="title">Home</h1>
+      {/* <img src="images/Homepage_Background.jpg" alt="me" style={img_style} /> */}
       <p className="box u-textCenter">Welcome to my homepage!</p>
     </div>
   );
