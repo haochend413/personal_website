@@ -12,6 +12,7 @@ function Experiencepage() {
       </p>
       <h1 className="section-title"> Projects </h1>
       {/* align, imglink, imgname, project_title, project_description, Project_link */}
+      {/* this can be done with .map() function; */}
       <Item
         align={0}
         imglink={"images/PID_HGV_1.png"}

@@ -1,38 +1,39 @@
-import { React, useEffect } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../style/style.css";
 
 function Navbar() {
-  //use navigate to direct between routes
+  // useNavigate to handle route navigation
   const navigate = useNavigate();
 
-  //get the function with handling
-  const buttons = document.querySelectorAll(".button");
-  // Add click event listener to each button
-  buttons.forEach((button) => {
-    button.addEventListener("click", () => {
-      // Remove the 'active' class from all buttons
-      buttons.forEach((btn) => btn.classList.remove("active"));
-      // Add 'active' class to the clicked button
-      button.classList.add("active");
-    });
-  });
+  // State to track the active button
+  const [activeButton, setActiveButton] = useState("");
 
+  const handleButtonClick = (label, route) => {
+    setActiveButton(route);
+    navigate(route);
+  };
+
+  //Data
+  const buttons = [
+    { label: "HOME", route: "/" },
+    { label: "ABOUT", route: "/about" },
+    { label: "EXPERIENCES", route: "/experiences" },
+    { label: "RESUME", route: "/resume" },
+  ];
+
+  //maping data to structure
   return (
     <nav className="navT">
-      <button className="button" onClick={() => navigate("/")}>
-        HOME
-      </button>
-      <button className="button" onClick={() => navigate("/about")}>
-        ABOUT
-      </button>
-      <button className="button" onClick={() => navigate("/experiences")}>
-        EXPERIENCES
-      </button>
-      <button className="button" onClick={() => navigate("/resume")}>
-        RESUME
-      </button>
-      {/* Add more links as needed */}
+      {buttons.map(({ label, route }, index) => (
+        <button
+          key={index}
+          className={`button ${activeButton === route ? "active" : ""}`}
+          onClick={() => handleButtonClick(label, route)}
+        >
+          {label}
+        </button>
+      ))}
     </nav>
   );
 }
