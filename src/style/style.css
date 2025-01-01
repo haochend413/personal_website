@@ -17,7 +17,7 @@ body {
   padding: 0;
   border: 0;
   height: 100vh; /* Full viewport height */
-  background: linear-gradient(to right, #276bc4, #d4e7fa);
+  background: linear-gradient(to left, #276bc4, #e9f4ff);
 }
 
 .piccenter {
@@ -51,7 +51,9 @@ body {
   display: block;
   border: solid 2px;
   border-color: white;
+  transition: transform 0.3s ease-in-out;
 }
+
 /* .pagetitle::before {
   content: url("/public/images/favicon.ico");
   display: inline-block;
@@ -73,7 +75,7 @@ body {
   margin-right: 5px;
   display: block;
   text-decoration: underline;
-  color: rgb(108, 243, 255);
+  color: rgb(52, 52, 52);
 }
 
 .text-center {
