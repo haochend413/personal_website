@@ -33,6 +33,18 @@ function Experiencepage() {
         }
         Project_link={"https://github.com/haochend413/FFT-Calculator"}
       />
+      <Item
+        align={0}
+        imglink={"images/MBSe MTT.jpg"}
+        imgname={"MTT"}
+        project_title={"Synthesis of MBSe and Application in Photodynamic Therapy"}
+        project_description={
+          "Synthesized MBSe photosensitizer and studied its therapeutic effects on cancer cells and simulated tumor organisms."
+        }
+        Project_link={
+          "Synthesis of Selenomethylene Blue and its Application in Type I, II Photodynamic Therapy.pdf"
+        }
+      />
     </>
   );
 }

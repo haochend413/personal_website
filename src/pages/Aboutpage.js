@@ -9,6 +9,7 @@ function Aboutpage() {
         My name is Haochen Ding. I am a Sophomore in University of Illinois, Urbana-Champaign. I am
         currently pursuing a Bachelor's Degree in Computer Engineering. Nice to meet you all!
       </p>
+      <img src="images/Homepage_Background.jpg" alt="me" class="img_style" />
     </>
   );
 }
