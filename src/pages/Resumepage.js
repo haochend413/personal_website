@@ -6,7 +6,7 @@ function Experiencepage() {
     <>
       <h1 className="section-title">Resume & Websites</h1>
       <p className="box">
-        <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="Resume.pdf" target="_blank" rel="noopener noreferrer">
           CV
         </a>
         <br></br>

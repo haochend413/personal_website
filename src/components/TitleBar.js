@@ -16,8 +16,8 @@ function TitleBar() {
     navigate("/");
   };
   return (
-    <div class="navContainer">
-      <h1 class="pagetitle" onClick={title_onclick_redirect}>
+    <div className="navContainer">
+      <h1 className="pagetitle" onClick={title_onclick_redirect}>
         Haochen Ding's Website
       </h1>
     </div>
