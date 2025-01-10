@@ -1,7 +1,15 @@
-function item({ align, imglink, imgname, project_title, project_description, Project_link }) {
+function item({
+  onClick,
+  align,
+  imglink,
+  imgname,
+  project_title,
+  project_description,
+  Project_link,
+}) {
   if (align == 0) {
     return (
-      <div class="gallery-item-left">
+      <div class="gallery-item-left" onClick={onClick}>
         <img src={imglink} alt={imgname} />
         <h3>{project_title}</h3>
         <p>{project_description}</p>
@@ -12,7 +20,7 @@ function item({ align, imglink, imgname, project_title, project_description, Pro
     );
   } else {
     return (
-      <div class="gallery-item-right">
+      <div class="gallery-item-right" onClick={onClick}>
         <img src={imglink} alt={imgname} />
         <h3>{project_title}</h3>
         <p>{project_description}</p>

@@ -1,20 +1,14 @@
-//where everything is connected to local browser.
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client"; // import from 'react-dom/client' for React 18+
 import App from "./App.js";
-import { HashRouter, BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import "./style/style.css";
 
-// renders React Component "Root" into the DOM element with ID "root"
+// Create root element using createRoot
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-/*
-Using HashRouter enables accessing subroutes directly, 
-without needing to redirecting to Home. 
-*/
-
-ReactDOM.render(
+root.render(
   <HashRouter>
     <App />
-  </HashRouter>,
-  document.getElementById("root")
+  </HashRouter>
 );
