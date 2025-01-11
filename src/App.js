@@ -12,7 +12,7 @@ import "./style/style.css";
 function App() {
   return (
     <div>
-      <script src="http://localhost:3000"></script>
+      
       <Titlebar />
       <Navbar />
       <Routes>
